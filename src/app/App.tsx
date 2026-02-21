@@ -6,7 +6,7 @@ import { useScrollProgress } from './components/useScrollProgress';
 import { ChatWidget } from './components/ChatWidget';
 
 // Product images
-const productImage = 'https://images.unsplash.com/photo-1630057135574-6ac3a75fbdf7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoZXJiYWwlMjB0ZWElMjBjdXAlMjBoZWFsdGh8ZW58MXx8fHwxNzcxNjk1OTU2fDA&ixlib=rb-4.1.0&q=80&w=1080';
+const productImage = 'https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/pressurerbbd16.webp';
 const guaranteeBadge = 'https://images.unsplash.com/photo-1643616802160-bcca2171c24a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxndWFyYW50ZWUlMjBiYWRnZSUyMGdvbGQlMjBzZWFsfGVufDF8fHx8MTc3MTY5NTk1Nnww&ixlib=rb-4.1.0&q=80&w=1080';
 
 export default function App() {
