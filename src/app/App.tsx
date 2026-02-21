@@ -235,7 +235,7 @@ export default function App() {
             </h1>
             
             <div className="text-sm text-gray-600 mb-6">
-              <p><strong>(Published Saturday, February 21, 2026)</strong></p>
+              <p><strong>(Published February 16, 2026)</strong></p>
               <p className="mt-1">Sponsored | Health & Wellness Correspondent</p>
             </div>
 
@@ -658,7 +658,7 @@ The most surprising part? I didn't change my lifestyle at all - just one cup of 
                       className="w-full h-auto rounded"
                     />
                   </div>
-                  <p className="text-center text-sm mb-3">Expires on Saturday, February 21, 2026</p>
+                  <p className="text-center text-sm mb-3">Expires on Sunday, February 22, 2026</p>
                   <div className="flex justify-center">
                     <a href="https://my.experthealthadvice.com/click" target="_blank" rel="noopener noreferrer" className="block">
                       <Button className="w-full bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white font-bold py-3 text-lg shadow-lg">
@@ -738,7 +738,7 @@ The most surprising part? I didn't change my lifestyle at all - just one cup of 
         <a href="https://my.experthealthadvice.com/click" target="_blank" rel="noopener noreferrer" className="block">  <Button className="bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white font-bold py-4 px-12 text-xl shadow-xl">
             BUY NOW
           </Button></a>
-          <p className="mt-4 text-red-600 font-semibold">This special offer ends: Saturday, February 21, 2026</p>
+          <p className="mt-4 text-red-600 font-semibold">This special offer ends: Sunday, February 22, 2026</p>
         </div>
 
         {/* Comments Section */}
