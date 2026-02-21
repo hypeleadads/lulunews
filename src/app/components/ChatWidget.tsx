@@ -20,7 +20,7 @@ function BotMessage({ text, showButton }: { text: string; showButton?: boolean }
           href="https://my.experthealthadvice.com/click"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white font-bold py-2 px-4 rounded-lg text-sm shadow-lg transition-all transform hover:scale-105"
+          className="inline-block bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white font-bold py-2 px-4 rounded-lg text-sm shadow-lg transition-all transform hover:scale-105 block"
         >
           🔥 SECURE YOUR 70% DISCOUNT NOW
         </a>
@@ -163,7 +163,7 @@ export function ChatWidget() {
         console.error('ChatGPT API Error:', error);
         const errorMessage: Message = {
           id: messages.length + 2,
-          text: "I apologize, I'm having trouble connecting right now. Please try again in a moment or click one of the FAQ questions above.",
+          text: "Click on Ask Another Question below and select one of the FAQ questions.",
           sender: 'bot',
           timestamp: new Date()
         };
@@ -229,7 +229,7 @@ export function ChatWidget() {
                         href="https://my.experthealthadvice.com/click"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-block bg-white text-red-600 font-bold py-2 px-6 rounded-full hover:bg-gray-100 transition-colors text-sm"
+                        className="inline-block bg-white text-red-600 font-bold py-2 px-6 rounded-full hover:bg-gray-100 transition-colors text-sm block"
                       >
                         CLAIM YOUR 70% OFF NOW
                       </a>
