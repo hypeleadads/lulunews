@@ -566,30 +566,31 @@ export default function App() {
                 className="w-full h-auto rounded"
               />
             </div>
- <h3 className="text-2xl font-bold mb-4">Clinical Observation Results:</h3>
-            <div className="bg-white border-2 border-green-500 rounded-lg p-6 mb-10">
+            
+            
+            <div className="prose max-w-none mb-8">
               <p className="mb-4">
-                In a 12-week observational study involving 147 participants, those who drank this herbal blend daily reported significant cardiovascular improvements - without changing their diet or exercise routine.
+"I tried everything - strict diets, supplements, even expensive health programs - but nothing worked long-term.
               </p>
-              <ul className="space-y-3 mb-4">
-                <li className="flex items-start">
-                  <span className="text-green-600 mr-3 text-2xl">✓</span>
-                  <span><strong>84%</strong> reported more stable and lower blood pressure readings</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-green-600 mr-3 text-2xl">✓</span>
-                  <span><strong>82%</strong> noticed clearer thinking and reduced brain fog</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-green-600 mr-3 text-2xl">✓</span>
-                  <span><strong>95%</strong> experienced visible changes in body composition and fluid retention as circulation improved</span>
-                </li>
-              </ul>
-              <p>
-                These results suggest that when blood vessels are no longer clogged, the body can finally regulate pressure, energy, and metabolism more efficiently - just as it was designed to do. With better circulation, the body can more effectively manage weight, energy levels, and overall health, which is crucial for the millions of Australian struggling with high blood pressure, particularly those affected by obesity or aging.
+            
+              <p className="mb-4">
+After just one week of drinking Lulutox tea every morning, I noticed my blood pressure readings had stabilized and my mind felt clearer. I could focus again and even remember small details that used to slip away.
               </p>
+            
+              <p className="mb-4">
+The most surprising part? I didn't change my lifestyle at all - just one cup of tea a day. I honestly feel better than I have in years."
+              </p>
+            
+              <p className="mb-4">
+- Maria K., 72, Sydney
+              
+              </p>
+            
+    
             </div>
-
+            
+            
+            
             {/* Why This Works */}
             <h2 className="text-3xl font-bold mb-6 mt-12">Why This Works When Conventional Methods Fail to Clear Blood Vessels</h2>
             <div className="prose max-w-none mb-8">
