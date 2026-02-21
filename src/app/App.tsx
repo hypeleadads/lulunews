@@ -559,6 +559,31 @@ export default function App() {
             </div>
 
 
+     <div className="mb-8">
+              <ImageWithFallback
+                src="https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/star2.jpg"
+                alt="Green tea and herbs"
+                className="w-full h-auto rounded"
+              />
+            </div>
+
+            <div className="bg-white border-2 border-green-500 rounded-lg p-6 mb-10">
+              <p className="mb-4">
+"I tried everything - strict diets, supplements, even expensive health programs - but nothing worked long-term.              </p>
+          
+              <p>
+After just one week of drinking <b>Lulutox</b> tea every morning, I noticed my blood pressure readings had stabilized and my mind felt clearer. I could focus again and even remember small details that used to slip away.
+              </p>
+              
+              <p>
+The most surprising part? I didn't change my lifestyle at all - just one cup of tea a day. I honestly feel better than I have in years."
+                            </p>
+                            
+                            <p>
+<B>- Maria K.</B>, 72, Sydney
+                            
+                                                        </p>
+            </div>
 
             {/* Why This Works */}
             <h2 className="text-3xl font-bold mb-6 mt-12">Why This Works When Conventional Methods Fail to Clear Blood Vessels</h2>
@@ -639,13 +664,6 @@ export default function App() {
               )}
 
 
-              <div className="mb-8">
-                <ImageWithFallback
-                  src="https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/star2.jpg"
-                  alt="Green tea and herbs"
-                  className="w-full h-auto rounded"
-                />
-              </div>
               
               {/* Reader Results Sidebar */}
               <div className="bg-white rounded-lg shadow-sm p-6">
