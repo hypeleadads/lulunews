@@ -331,6 +331,18 @@ export default function App() {
 
             <h2 className="text-3xl font-bold mb-6 mt-10">Here are 7 warning signs you should never ignore. They indicate that your blood vessels are no longer functioning properly, and your body is bearing the consequences.</h2>
 
+
+
+            <div className="mb-8">
+                    <ImageWithFallback
+                      src="https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/blood_pressure_bigbead_alt.webp"
+                      alt="Arterial health visualization"
+                      className="w-full h-auto rounded"
+                    />
+                  </div>
+
+
+
             {/* Warning Signs List */}
             <div className="space-y-6 mb-10">
               <div>
@@ -378,16 +390,20 @@ export default function App() {
               </p>
             </div>
 
+
+            <div className="mb-8">
+                    <ImageWithFallback
+                      src="https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/50lbs.jpg"
+                      alt="Arterial health visualization"
+                      className="w-full h-auto rounded"
+                    />
+                  </div>
+
+
+
             {/* Breakthrough Discovery */}
             <h2 className="text-3xl font-bold mb-6 mt-12">Breakthrough Discovery: How a Long-Forgotten Herbal Tea Helps Unclog Blood Vessels and Support Healthy Blood Pressure</h2>
 
-            <div className="mb-8">
-              <ImageWithFallback
-                src="https://images.unsplash.com/photo-1720082301739-5d250b4a5551?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoZXJiYWwlMjB0ZWElMjBjdXAlMjBoZWFsdGh8ZW58MXx8fHwxNzcxNjk1OTU2fDA&ixlib=rb-4.1.0&q=80&w=1080"
-                alt="Herbal tea"
-                className="w-full h-auto rounded"
-              />
-            </div>
 
             <div className="prose max-w-none mb-8">
               <p className="mb-4">
@@ -430,7 +446,7 @@ export default function App() {
 
             <div className="mb-8">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1701190588769-a25a6adbfeed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxncmVlbiUyMHRlYSUyMGhlcmJzfGVufDF8fHx8MTc3MTY5MjEwMnww&ixlib=rb-4.1.0&q=80&w=1080"
+                src="https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/4a5576a14732c71f6b4445c55ec2522b.png.jpeg"
                 alt="Green tea and herbs"
                 className="w-full h-auto rounded"
               />
@@ -489,6 +505,14 @@ export default function App() {
                 When combined, these herbs don't work in isolation. They support one another to help clear the pathways blood travels through. As resistance inside the vessels decreases, circulation improves - and pressure on the arterial walls can naturally begin to ease.
               </p>
             </div>
+            
+            <div className="mb-8">
+              <ImageWithFallback
+                src="https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/sgu3.jpg"
+                alt="Green tea and herbs"
+                className="w-full h-auto rounded"
+              />
+            </div>
 
             {/* Synergistic Effect */}
             <div className="bg-gradient-to-r from-green-50 to-blue-50 p-8 rounded-lg mb-10">
@@ -525,6 +549,16 @@ export default function App() {
                 These results suggest that when blood vessels are no longer clogged, the body can finally regulate pressure, energy, and metabolism more efficiently - just as it was designed to do. With better circulation, the body can more effectively manage weight, energy levels, and overall health, which is crucial for the millions of Australian struggling with high blood pressure, particularly those affected by obesity or aging.
               </p>
             </div>
+
+       <div className="mb-8">
+              <ImageWithFallback
+                src="https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/lb_nolb-2.jpeg"
+                alt="Green tea and herbs"
+                className="w-full h-auto rounded"
+              />
+            </div>
+
+
 
             {/* Why This Works */}
             <h2 className="text-3xl font-bold mb-6 mt-12">Why This Works When Conventional Methods Fail to Clear Blood Vessels</h2>
@@ -604,6 +638,15 @@ export default function App() {
                 </div>
               )}
 
+
+              <div className="mb-8">
+                <ImageWithFallback
+                  src="https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/star2.jpg"
+                  alt="Green tea and herbs"
+                  className="w-full h-auto rounded"
+                />
+              </div>
+              
               {/* Reader Results Sidebar */}
               <div className="bg-white rounded-lg shadow-sm p-6">
                 <h3 className="text-sm font-bold text-gray-500 uppercase mb-4 pb-2 border-b">Reader Results</h3>
@@ -668,9 +711,9 @@ export default function App() {
               className="w-32 h-auto"
             />
           </div>
-          <Button className="bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white font-bold py-4 px-12 text-xl shadow-xl">
+        <a href="https://my.experthealthadvice.com/click" target="_blank" rel="noopener noreferrer" className="block">  <Button className="bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white font-bold py-4 px-12 text-xl shadow-xl">
             BUY NOW
-          </Button>
+          </Button></a>
           <p className="mt-4 text-red-600 font-semibold">This special offer ends: Saturday, February 21, 2026</p>
         </div>
 
