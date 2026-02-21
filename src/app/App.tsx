@@ -840,7 +840,7 @@ The most surprising part? I didn't change my lifestyle at all - just one cup of 
         <div className="max-w-4xl mx-auto mt-12 bg-gradient-to-r from-red-600 to-pink-600 text-white rounded-lg p-12 text-center shadow-2xl">
           <h2 className="text-4xl font-bold mb-4">Don't Wait - Limited Time Offer!</h2>
           <p className="text-xl mb-8">Join thousands of Australians who have already improved their cardiovascular health with Lulutox</p>
-          <a href="https://my.experthealthadvice.com/click" target="_blank" rel="noopener noreferrer">
+    <a href="https://my.experthealthadvice.com/click" target="_blank" rel="noopener noreferrer" className="block"> 
             <Button className="bg-white text-red-600 hover:bg-gray-100 font-bold py-4 px-16 text-xl shadow-xl">
               CLAIM YOUR DISCOUNT NOW
             </Button>
@@ -871,7 +871,8 @@ The most surprising part? I didn't change my lifestyle at all - just one cup of 
                 <h3 className="font-bold text-base sm:text-lg">Special Offer - 70% OFF!</h3>
                 <p className="text-xs sm:text-sm">Limited time offer expires today</p>
               </div>
-              <a href="https://my.experthealthadvice.com/click" target="_blank" rel="noopener noreferrer">
+     
+                <a href="https://my.experthealthadvice.com/click" target="_blank" rel="noopener noreferrer" className="block"> 
                 <Button className="bg-white text-red-600 hover:bg-gray-100 font-bold py-2 px-6 sm:py-3 sm:px-8 text-base sm:text-lg shadow-xl whitespace-nowrap">
                   CLAIM DISCOUNT NOW
                 </Button>
