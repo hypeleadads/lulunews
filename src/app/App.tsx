@@ -558,6 +558,8 @@ export default function App() {
               />
             </div>
 
+   {/* The Science Behind the Formula */}
+            <h2 className="text-3xl font-bold mb-6 mt-12">READER RESULTS</h2>
 
      <div className="mb-8">
               <ImageWithFallback
@@ -574,7 +576,7 @@ export default function App() {
               </p>
             
               <p className="mb-4">
-After just one week of drinking Lulutox tea every morning, I noticed my blood pressure readings had stabilized and my mind felt clearer. I could focus again and even remember small details that used to slip away.
+After just one week of drinking <b>Lulutox</b> tea every morning, I noticed my blood pressure readings had stabilized and my mind felt clearer. I could focus again and even remember small details that used to slip away.
               </p>
             
               <p className="mb-4">
@@ -582,7 +584,7 @@ The most surprising part? I didn't change my lifestyle at all - just one cup of 
               </p>
             
               <p className="mb-4">
-- Maria K., 72, Sydney
+<B>- Maria K.</B>, 72, Sydney
               
               </p>
             
