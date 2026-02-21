@@ -6,8 +6,8 @@ import { useScrollProgress } from './components/useScrollProgress';
 import { ChatWidget } from './components/ChatWidget';
 
 // Product images
-const productImage = 'https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/pressurerbbd16.webp';
-const guaranteeBadge = 'https://images.unsplash.com/photo-1643616802160-bcca2171c24a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxndWFyYW50ZWUlMjBiYWRnZSUyMGdvbGQlMjBzZWFsfGVufDF8fHx8MTc3MTY5NTk1Nnww&ixlib=rb-4.1.0&q=80&w=1080';
+const productImage = 'https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/13838.png.jpeg';
+const guaranteeBadge = 'https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/100-guarantee-seal-1_2.png';
 
 export default function App() {
   const [showAllComments, setShowAllComments] = useState(false);
@@ -22,21 +22,21 @@ export default function App() {
       text: "I have been using this blood vessel detox tea for 3 weeks now, and I've already noticed a significant improvement in my circulation and lower blood pressure! Thank you so much for sharing this!", 
       likes: 13, 
       time: "12 minutes ago",
-      avatar: "https://i.pravatar.cc/150?img=1" // 👈 Replace with your image URL
+      avatar: "https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/lewis.jpg" // 👈 Replace with your image URL
     },
     { 
       name: "Tanya Porquez", 
       text: "I've been using the product for about 6 wks. Honestly, this is unbelievable, all I have to say is WOW.", 
       likes: 6, 
       time: "13 minutes ago",
-      avatar: "https://i.pravatar.cc/150?img=5" // 👈 Replace with your image URL
+      avatar: "https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/tanya.jpg" // 👈 Replace with your image URL
     },
     { 
       name: "Jennifer Jackson Mercer", 
       text: "A friend of mine used and recommended it to me 3 weeks ago. I ordered the product and received it within 3 days. The results have been incredible and I can't wait to see what weeks 3 and 4 bring.", 
       likes: 19, 
       time: "25 minutes ago",
-      avatar: "https://i.pravatar.cc/150?img=9" // 👈 Replace with your image URL
+      avatar: "https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/jenni.jpg" // 👈 Replace with your image URL
     },
     { 
       name: "Kristy Cash", 
@@ -50,91 +50,91 @@ export default function App() {
       text: "I can't believe this is really amazing! I am very much pleased after using this product.", 
       likes: 43, 
       time: "about an hour ago",
-      avatar: "https://i.pravatar.cc/150?img=20" // 👈 Replace with your image URL
+      avatar: "https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/cash.jpg" // 👈 Replace with your image URL
     },
     { 
       name: "Julie Keyse", 
       text: "probably I'm a bit more overweight than most of you folks. but Lulutox worked for me too! LOL! I can't say anything more exciting. Thanks for the inspiration!", 
       likes: 0, 
       time: "2 hours ago",
-      avatar: "https://i.pravatar.cc/150?img=24" // 👈 Replace with your image URL
+      avatar: "https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/julie.jpg" // 👈 Replace with your image URL
     },
     { 
       name: "Sarah Williams", 
       text: "My sister did this a few months ago, I waited to order my tea to see if it really worked and then they stopped giving out the big discount! what a dumb move that turned out to be. glad to see the promotion is back again, I wont make the same mistake.", 
       likes: 12, 
       time: "2 hours ago",
-      avatar: "https://i.pravatar.cc/150?img=32" // 👈 Replace with your image URL
+      avatar: "https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/sarah.jpg" // 👈 Replace with your image URL
     },
     { 
       name: "Kirsten Bauman Riley", 
       text: "I'm going to give this product a chance to work its magic on me. I've tried everything out there and so far nothing has been good enough to help me.", 
       likes: 30, 
       time: "2 hours ago",
-      avatar: "https://i.pravatar.cc/150?img=44" // 👈 Replace with your image URL
+      avatar: "https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/kirs.jpg" // 👈 Replace with your image URL
     },
     { 
       name: "Celia Kilgard", 
       text: "worked for me! It worked just like I thought it would. It was easy enough and I just want others to know when something works.", 
       likes: 53, 
       time: "2 hours ago",
-      avatar: "https://i.pravatar.cc/150?img=26" // 👈 Replace with your image URL
+      avatar: "https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/celia.jpg" // 👈 Replace with your image URL
     },
     { 
       name: "Alanna 'martin' Payne", 
       text: "Thanks for the info, just started mine.", 
       likes: 16, 
       time: "2 hours ago",
-      avatar: "https://i.pravatar.cc/150?img=29" // 👈 Replace with your image URL
+      avatar: "https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/alanna.jpg" // 👈 Replace with your image URL
     },
     { 
       name: "Alice Chang", 
       text: "Been so busy with the kids lately that I'm never able to find deals like this. I'll give it a shot!", 
       likes: 2, 
       time: "2 hours ago",
-      avatar: "https://i.pravatar.cc/150?img=16" // 👈 Replace with your image URL
+      avatar: "https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/alice.jpg" // 👈 Replace with your image URL
     },
     { 
       name: "Mark Fadlevich", 
       text: "Always impressed with the deals you guys dig up, got my tea. Can't wait to see what you've got lined up next week.", 
       likes: 11, 
       time: "2 hours ago",
-      avatar: "https://i.pravatar.cc/150?img=12" // 👈 Replace with your image URL
+      avatar: "https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/mark.jpg" // 👈 Replace with your image URL
     },
     { 
       name: "Ashley O'Brien Berlin", 
       text: "Yes, this stuff is amazing! My best friend Gina uses it, and I've been struggling for years with high blood pressure and poor circulation. You made me realize I could finally improve my cardiovascular health, which is so important for staying energetic and feeling my best for my daughter's wedding. I just ordered my first tea, and I have a very good feeling about it!", 
       likes: 33, 
       time: "2 hours ago",
-      avatar: "https://i.pravatar.cc/150?img=47" // 👈 Replace with your image URL
+      avatar: "https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/ashley.jpg" // 👈 Replace with your image URL
     },
     { 
       name: "Amanda Hickam", 
       text: "Hey Christine, i just placed my order. I can't wait to get my Lulutox!! Thanks, Aimee xoxoxo.", 
       likes: 23, 
       time: "3 hours ago",
-      avatar: "https://i.pravatar.cc/150?img=23" // 👈 Replace with your image URL
+      avatar: "https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/hick.jpg" // 👈 Replace with your image URL
     },
     { 
       name: "Brittany Jackson", 
       text: "My mom just e-mailed me this, a friend at work had told her about it. i guess it works really well", 
       likes: 6, 
       time: "3 hours ago",
-      avatar: "https://i.pravatar.cc/150?img=31" // 👈 Replace with your image URL
+      avatar: "https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/brit.jpg" // 👈 Replace with your image URL
     },
     { 
       name: "Shellie Wilson Hodge", 
       text: "Telling all my friends about this, thanx for the info", 
       likes: 2, 
       time: "3 hours ago",
-      avatar: "https://i.pravatar.cc/150?img=45" // 👈 Replace with your image URL
+      avatar: "https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/shel.jpg" // 👈 Replace with your image URL
     },
     { 
       name: "Jill Phongsa", 
       text: "wasn't sure about ordering online but this deal seals it for me, didn't want to miss out. checked out the pages and all is encrypted and good. looking forward to my new looks", 
       likes: 17, 
       time: "4 hours ago",
-      avatar: "https://i.pravatar.cc/150?img=27" // 👈 Replace with your image URL
+      avatar: "https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/jill.jpg" // 👈 Replace with your image URL
     },
     { 
       name: "Molly Murley Davis", 
@@ -148,35 +148,35 @@ export default function App() {
       text: "As a realtor it's important to look and feel my best, unfortunately the housing market isn't doing that great so cash has been a little tight lately. Thanks for the info, looking forward to receiving my tea.", 
       likes: 20, 
       time: "8 hours ago",
-      avatar: "https://i.pravatar.cc/150?img=25" // 👈 Replace with your image URL
+      avatar: "https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/jenna.jpg" // 👈 Replace with your image URL
     },
     { 
       name: "Laura Kelch Miranda", 
       text: "I have tried so much of this kind of stuff, in one sense I want to try it but in the back of my mind I am thinking, yeah right!! Someone please reassure me it works.", 
       likes: 10, 
       time: "8 hours ago",
-      avatar: "https://i.pravatar.cc/150?img=30" // 👈 Replace with your image URL
+      avatar: "https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/laura.jpg" // 👈 Replace with your image URL
     },
     { 
       name: "Sara Bergheger", 
       text: "I tried the tea thing a while ago and it worked pretty good.", 
       likes: 13, 
       time: "8 hours ago",
-      avatar: "https://i.pravatar.cc/150?img=22" // 👈 Replace with your image URL
+      avatar: "https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/sara.jpg" // 👈 Replace with your image URL
     },
     { 
       name: "Lauren Kirschenbaum Silver", 
       text: "For once I was able to do something nice for myself without feeling guilty about the cost.", 
       likes: 3, 
       time: "8 hours ago",
-      avatar: "https://i.pravatar.cc/150?img=43" // 👈 Replace with your image URL
+      avatar: "https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/silver.jpg" // 👈 Replace with your image URL
     },
     { 
       name: "Gotmy Mindframe Right", 
       text: "Had no idea you could get results like this.", 
       likes: 5, 
       time: "9 hours ago",
-      avatar: "https://i.pravatar.cc/150?img=33" // 👈 Replace with your image URL
+      avatar: "https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/got.jpg" // 👈 Replace with your image URL
     },
   ];
 
@@ -242,7 +242,7 @@ export default function App() {
             {/* Hero Image */}
             <div className="mb-8">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1682706841281-f723c5bfcd83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxibG9vZCUyMHByZXNzdXJlJTIwbW9uaXRvciUyMGhlYWx0aHxlbnwxfHx8fDE3NzE2OTIwOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                src="https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/pressurerbbd16.webp"
                 alt="Blood pressure monitoring"
                 className="w-full h-auto rounded"
               />
@@ -271,7 +271,7 @@ export default function App() {
             {/* Blood Vessel Image */}
             <div className="mb-8">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1705292820194-8262fd9644d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxibG9vZCUyMHZlc3NlbCUyMGFydGVyaWFsJTIwaGVhbHRofGVufDF8fHx8MTc3MTY5MjA5N3ww&ixlib=rb-4.1.0&q=80&w=1080"
+                src="https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/50lbs0002222.jpg"
                 alt="Arterial health visualization"
                 className="w-full h-auto rounded"
               />
@@ -297,6 +297,15 @@ export default function App() {
               </p>
             </div>
 
+      <div className="mb-8">
+              <ImageWithFallback
+                src="https://experthealthadvice.com/detox-tea/landers/84af3a0742/bvbp-AU-teafox-919.51-ob/files/50lbs2222.jpg"
+                alt="Arterial health visualization"
+                className="w-full h-auto rounded"
+              />
+            </div>
+            
+            
             {/* Warning Signs Section */}
             <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 mb-8">
               <div className="flex items-start">
