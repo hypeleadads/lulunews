@@ -743,7 +743,7 @@ The most surprising part? I didn't change my lifestyle at all - just one cup of 
 
         {/* Comments Section */}
         <div className="max-w-4xl mx-auto mt-12 bg-white rounded-lg shadow-sm p-8">
-          <h2 className="text-2xl font-bold mb-6">Recent # Comments</h2>
+          <h2 className="text-2xl font-bold mb-6">Recent Comments</h2>
           <div className="space-y-6">
             {displayedComments.map((comment, index) => (
               <div key={index} className="border-b pb-6 last:border-b-0">
